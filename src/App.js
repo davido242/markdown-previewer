@@ -34,9 +34,26 @@ const Previewer = ({ content }) => {
 
 function App() {
   const [content, setContent] = useState(`
+  # This is H1
   ## This is H2
+  [title](https://www.example.com)
+  \`code\`
+  \`\`\`
+    {
+      firstName: "John",
+      "lastName": "Smith",
+      "age": 25
+    }
+  \`\`\`
+
+  - First Item
+  - Second Item
+  - Third Item
+
+  >blockquote
 
   ![alt text](https://image.shutterstock.com/image-photo/sexy-body-young-sporty-healthy-600w-678312892.jpg)
+  **Bold Text**
   `);
   const handleTextareaChange = (sev) => {
     setContent(sev.target.value)
