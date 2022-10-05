@@ -17,7 +17,7 @@ renderer.link = function (href, title, text) {
 };
 
 const Editor = ({ content, handleTextareaChange }) => {
-  return <textarea value={content} onChange={handleTextareaChange} />;
+  return <textarea id="editor" value={content} onChange={handleTextareaChange} />;
 };
 
 const Previewer = ({ content }) => {
@@ -36,8 +36,8 @@ function App() {
   # This is H1
   ## This is H2
   [title](https://www.example.com)
+  
   \`code\`
-
   \`\`\`
       {
         "firstName": "John",
@@ -45,12 +45,22 @@ function App() {
         "age": 25
       }
     \`\`\`
+    \`\`\`
+    {
+      const multipleLineCode = (param) => {
+            if (param) {
+              return param
+              }
+            }
+          }
+       \`\`\`
 
   - First Item
   - Second Item
   - Third Item
 
-  >blockquote
+
+  > blockquote
 
   ![alt text](https://image.shutterstock.com/image-photo/sexy-body-young-sporty-healthy-600w-678312892.jpg)
 
