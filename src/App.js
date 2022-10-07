@@ -62,7 +62,7 @@ function App() {
 
   > blockquote
 
-  ![alt text](https://st2.depositphotos.com/1594308/8889/i/950/depositphotos_88898184-stock-photo-blond-girl-standing-on-stone.jpg)
+  ![Image Alt Text Here](https://st2.depositphotos.com/1594308/8889/i/950/depositphotos_88898184-stock-photo-blond-girl-standing-on-stone.jpg)
 
   **Bold Text**
   `);
