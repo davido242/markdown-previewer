@@ -62,7 +62,7 @@ function App() {
 
   > blockquote
 
-  ![alt text](https://image.shutterstock.com/image-photo/sexy-body-young-sporty-healthy-600w-678312892.jpg)
+  ![alt text](https://st2.depositphotos.com/1594308/8889/i/950/depositphotos_88898184-stock-photo-blond-girl-standing-on-stone.jpg)
 
   **Bold Text**
   `);
